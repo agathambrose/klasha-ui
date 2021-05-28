@@ -74,7 +74,7 @@ const Balances = (props) => {
                 type="month"
                 min="2019-03"
                 value="2020-03"
-                className="lg:py-3 text-xs border border-gray-100 rounded"
+                className="lg:py-3 text-xs bg-white border border-gray-100 rounded"
               />
               <button className="bg-green-800 text-xs font-bold text-white opacity-95 p-3 rounded shadow">
                 Payout
