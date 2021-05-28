@@ -25,7 +25,7 @@ export const SideNav = ({ isSideBarOpen }) => {
               <NavLink to={val.path} className="active:bg-white">
                 <button
                   key={key}
-                  className="space-x-3 space-y-3 w-full focus:font-semibold hover:font-semibold text-gray-400 hover:text-black hover:bg-gray-50 focus:outline-none focus:bg-white focus:text-black cursor-pointer transition duration-200"
+                  className="space-x-3 space-y-3 w-full focus:font-semibold hover:font-semibold text-gray-400 hover:text-black hover:bg-white focus:outline-none focus:bg-gray-50 focus:text-black cursor-pointer transition duration-200"
                 >
                   <div className="flex items-center space-x-3 py-3 px-8">
                     <div>{val.icon}</div>
@@ -44,7 +44,7 @@ export const SideNav = ({ isSideBarOpen }) => {
               <NavLink to={val.path} className="active:bg-white">
                 <button
                   key={key}
-                  className="space-x-3 space-y-3 w-full focus:font-semibold hover:font-semibold text-gray-400 hover:text-black hover:bg-gray-50 focus:outline-none focus:bg-white focus:text-black cursor-pointer transition duration-200"
+                  className="space-x-3 space-y-3 w-full focus:font-semibold hover:font-semibold text-gray-400 hover:text-black hover:bg-white focus:outline-none focus:bg-gray-50 focus:text-black cursor-pointer transition duration-200"
                 >
                   <div className="flex items-center space-x-3 py-3 px-8">
                     <div>{val.icon}</div>
