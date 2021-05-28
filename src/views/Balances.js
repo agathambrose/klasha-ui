@@ -58,7 +58,7 @@ const Balances = (props) => {
         </h3>
         <div className="flex lg:justify-between justify-center items-center">
           {/* search form */}
-          <h3 className="lg:block hidden">Payout table</h3>
+          <h3 className="lg:block hidden font-bold">Payout table</h3>
           <div className="relative">
             <form className="space-x-3 flex">
               <input
@@ -76,7 +76,7 @@ const Balances = (props) => {
                 value="2020-03"
                 className="lg:py-3 text-xs border border-gray-100 rounded"
               />
-              <button className="bg-green-800 text-xs opacity-95 p-3 rounded shadow">
+              <button className="bg-green-800 text-xs font-bold text-white opacity-95 p-3 rounded shadow">
                 Payout
               </button>
             </form>
@@ -135,8 +135,8 @@ const Balances = (props) => {
             </h3>
             <h3 className="w-4/12 text-center">$1,200</h3>
           </div>
-          <div className="text-green-700 block w-full border border-gray-200 rounded-b-sm px-8 py-2 text-center cursor-pointer">
-            <button>See more</button>
+          <div className="text-green-700  block w-full border border-gray-200 rounded-b-sm px-8 py-2 text-center cursor-pointer">
+            <button className="focus:outline-none font-bold">See more</button>
           </div>
         </div>
       </div>

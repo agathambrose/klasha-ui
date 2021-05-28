@@ -33,7 +33,7 @@ export const Header = ({ headerTitle, isToggleSideBar }) => {
           <GiHamburgerMenu />
         </button>
         <div>
-          <h3 className="text-black text-xl">{headerTitle}</h3>
+          <h3 className="text-black text-xl font-extrabold">{headerTitle}</h3>
           <p className="text-gray-400 text-sm">
             Today, {day} {monthNames[month]} {year}{" "}
           </p>
@@ -47,9 +47,11 @@ export const Header = ({ headerTitle, isToggleSideBar }) => {
             <span></span>
           </div>
         </div>
-        <div className="rounded-full p-1 border border-red-600">
-          <img src="/assets/image-1.png" alt="profile" />
-        </div>
+        <img
+          src="/assets/image-1.png"
+          alt="profile"
+          className="px-2 py-1 bg-red-100 rounded-full border border-red-600"
+        />
       </div>
     </div>
   );
