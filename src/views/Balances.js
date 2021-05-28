@@ -4,7 +4,7 @@ import { RiSearchLine } from "react-icons/ri";
 
 const Balances = (props) => {
   return (
-    <div className="p-2 flex-1 rounded">
+    <div className="p-2 flex-1 w-screen rounded">
       <Header headerTitle="Balances" {...props} />
 
       <div className="lg:block flex flex-col justify-center items-center">
