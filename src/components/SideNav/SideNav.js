@@ -6,8 +6,8 @@ export const SideNav = ({ isSideBarOpen }) => {
   return (
     <div
       className={`bg-gray-100 ${
-        !isSideBarOpen ? "hidden md:block" : ""
-      } w-60 md:h-screen h-screen pt-4 md:pt-8`}
+        !isSideBarOpen ? "hidden lg:block" : ""
+      } w-60 h-auto pt-4 lg:pt-8 transition duration-1000`}
     >
       <div className="space-y-6 flex flex-col justify-start">
         {/* logo */}

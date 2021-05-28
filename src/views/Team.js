@@ -6,7 +6,7 @@ const Team = (props) => {
   return (
     <div className="p-2 flex-1 rounded">
       <Header headerTitle="Team" {...props} />
-      <div className="flex flex-col justify-center items-center md:mt-6 mt-20">
+      <div className="flex flex-col justify-center items-center lg:mt-6 mt-20">
         <img src="/assets/empty.png" alt="empty" className="w-96" />
         <Link to="/balances">
           <button className="p-2 shadow-md rounded-sm bg-white hover:bg-gray-50">

@@ -5,7 +5,7 @@ export const Screen = ({ children, isOpen }) => {
   return (
     <div className="flex font-space-grotesk">
       <SideNav isSideBarOpen={isOpen} />
-      <div className=" w-5/6 flex flex-1 md:p-5 pb-0">{children}</div>
+      <div className=" w-5/6 flex flex-1 lg:p-5 pb-0">{children}</div>
     </div>
   );
 };
