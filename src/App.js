@@ -1,6 +1,7 @@
 // imports
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
+import history from "./utils/history";
 import loadable from "@loadable/component";
 import Spinner from "react-bootstrap/Spinner";
 import { Screen } from "./views/app/Screen";
@@ -92,7 +93,7 @@ const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <Router>
+    <Router history={history}>
       <Switch>
         <Screen isOpen={isOpen}>
           <Route exact path="/">

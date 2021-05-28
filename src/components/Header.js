@@ -28,7 +28,7 @@ export const Header = ({ headerTitle, isToggleSideBar }) => {
         <button
           type="button"
           onClick={isToggleSideBar}
-          className="md:hidden block text-2xl focus:outline-none"
+          className="md:hidden block text-4xl focus:outline-none"
         >
           <GiHamburgerMenu />
         </button>
