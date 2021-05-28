@@ -13,7 +13,7 @@ const Dashboard = loadable(() => import("./views/Dashboard"), {
       style={{ marginTop: "5rem" }}
       animation="grow"
       variant="secondary"
-      className="flex justify-center items-center"
+      className="flex justify-center mt-10 items-center"
     />
   ),
 });
@@ -23,7 +23,7 @@ const Balances = loadable(() => import("./views/Balances"), {
       style={{ marginTop: "5rem" }}
       animation="grow"
       variant="secondary"
-      className="flex justify-center items-center"
+      className="flex justify-center mt-10 items-center"
     />
   ),
 });
@@ -33,7 +33,7 @@ const Customers = loadable(() => import("./views/Customers"), {
       style={{ marginTop: "5rem" }}
       animation="grow"
       variant="secondary"
-      className="flex justify-center items-center"
+      className="flex justify-center mt-10 items-center"
     />
   ),
 });
@@ -43,7 +43,7 @@ const Analytics = loadable(() => import("./views/Analytics"), {
       style={{ marginTop: "5rem" }}
       animation="grow"
       variant="secondary"
-      className="flex justify-center items-center"
+      className="flex justify-center mt-10 items-center"
     />
   ),
 });
@@ -53,7 +53,7 @@ const Settings = loadable(() => import("./views/Settings"), {
       style={{ marginTop: "5rem" }}
       animation="grow"
       variant="secondary"
-      className="flex justify-center items-center"
+      className="flex justify-center mt-10 items-center"
     />
   ),
 });
@@ -63,7 +63,7 @@ const Team = loadable(() => import("./views/Team"), {
       style={{ marginTop: "5rem" }}
       animation="grow"
       variant="secondary"
-      className="flex justify-center items-center"
+      className="flex justify-center mt-10 items-center"
     />
   ),
 });
@@ -73,7 +73,7 @@ const Contact = loadable(() => import("./views/Contact"), {
       style={{ marginTop: "5rem" }}
       animation="grow"
       variant="secondary"
-      className="flex justify-center items-center"
+      className="flex justify-center mt-10 items-center"
     />
   ),
 });

@@ -7,7 +7,7 @@ export const SideNav = ({ isSideBarOpen }) => {
     <div
       className={`bg-gray-100 ${
         !isSideBarOpen ? "hidden lg:block" : ""
-      } w-60 min-h-screen shadow-md lg:shadow-none pt-4 lg:pt-8 transition duration-1000`}
+      } md:w-60 w-44 min-h-screen shadow-md lg:shadow-none pt-4 lg:pt-8 transition duration-1000`}
     >
       <div className="space-y-6 flex flex-col justify-start">
         {/* logo */}
