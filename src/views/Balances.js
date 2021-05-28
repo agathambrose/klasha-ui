@@ -60,7 +60,7 @@ const Balances = (props) => {
           {/* search form */}
           <h3 className="lg:block hidden font-bold">Payout table</h3>
           <div className="relative">
-            <form className="space-x-3 flex">
+            <form className="space-x-3 flex mx-2 lg:mx-0">
               <input
                 type="text"
                 placeholder="Search something..."
@@ -94,7 +94,7 @@ const Balances = (props) => {
           {/* table body */}
           <div className="flex justify-center items-center w-full lg:pl-12 pl-2 py-2 rounded text-sm border border-white hover:border hover:shadow-md hover:border-green-700 transition duration-200 cursor-pointer">
             <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
-            <h3 className="lg:w-4/12 w-4/12 text-center truncate">
+            <h3 className="lg:w-4/12 w-4/12 mr-1 md:mr-0 text-center truncate">
               Vel pellentesque ornare
             </h3>
             <h3 className="lg:w-4/12 w-5/12 text-center">
@@ -105,7 +105,7 @@ const Balances = (props) => {
           <hr />
           <div className="flex justify-center items-center w-full lg:pl-12 pl-3 py-2 rounded text-sm border border-white hover:border hover:shadow-md hover:border-green-700 transition duration-200 cursor-pointer">
             <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
-            <h3 className="lg:w-4/12 w-4/12 text-center truncate">
+            <h3 className="lg:w-4/12 w-4/12 mr-1 md:mr-0 text-center truncate">
               Vel pellentesque ornare
             </h3>
             <h3 className="lg:w-4/12 w-5/12 text-center">
@@ -116,7 +116,7 @@ const Balances = (props) => {
           <hr />
           <div className="flex justify-center items-center w-full lg:pl-12 pl-3 py-2 rounded text-sm border border-white hover:border hover:shadow-md hover:border-green-700 transition duration-200 cursor-pointer">
             <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
-            <h3 className="lg:w-4/12 w-4/12 text-center truncate">
+            <h3 className="lg:w-4/12 w-4/12 mr-1 md:mr-0 text-center truncate">
               Vel pellentesque ornare
             </h3>
             <h3 className="lg:w-4/12 w-5/12 text-center">
@@ -127,7 +127,7 @@ const Balances = (props) => {
           <hr />
           <div className="flex justify-center items-center w-full lg:pl-12 pl-2 py-2 rounded text-sm border border-white hover:border hover:border-green-700 hover:shadow-md transition duration-200 cursor-pointer">
             <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
-            <h3 className="lg:w-4/12 w-4/12 text-center truncate">
+            <h3 className="lg:w-4/12 w-4/12 mr-1 md:mr-0 text-center truncate">
               Vel pellentesque ornare
             </h3>
             <h3 className="lg:w-4/12 w-5/12 text-center">
