@@ -93,7 +93,7 @@ const Balances = (props) => {
           </div>
           {/* table body */}
           <div className="flex justify-center items-center w-full lg:pl-12 pl-2 py-2 rounded text-sm border border-white hover:border hover:shadow-md hover:border-green-700 transition duration-200 cursor-pointer">
-            <h3 className="lg:w-4/12 w-5/12">KLA12578DHQ</h3>
+            <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
             <h3 className="lg:w-4/12 w-4/12 text-center truncate">
               Vel pellentesque ornare
             </h3>
@@ -104,7 +104,7 @@ const Balances = (props) => {
           </div>
           <hr />
           <div className="flex justify-center items-center w-full lg:pl-12 pl-3 py-2 rounded text-sm border border-white hover:border hover:shadow-md hover:border-green-700 transition duration-200 cursor-pointer">
-            <h3 className="lg:w-4/12 w-5/12">KLA12578DHQ</h3>
+            <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
             <h3 className="lg:w-4/12 w-4/12 text-center truncate">
               Vel pellentesque ornare
             </h3>
@@ -115,7 +115,7 @@ const Balances = (props) => {
           </div>
           <hr />
           <div className="flex justify-center items-center w-full lg:pl-12 pl-3 py-2 rounded text-sm border border-white hover:border hover:shadow-md hover:border-green-700 transition duration-200 cursor-pointer">
-            <h3 className="lg:w-4/12 w-5/12">KLA12578DHQ</h3>
+            <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
             <h3 className="lg:w-4/12 w-4/12 text-center truncate">
               Vel pellentesque ornare
             </h3>
@@ -126,7 +126,7 @@ const Balances = (props) => {
           </div>
           <hr />
           <div className="flex justify-center items-center w-full lg:pl-12 pl-2 py-2 rounded text-sm border border-white hover:border hover:border-green-700 hover:shadow-md transition duration-200 cursor-pointer">
-            <h3 className="lg:w-4/12 w-5/12">KLA12578DHQ</h3>
+            <h3 className="lg:w-4/12 w-5/12 mr-2 md:mr-0">KLA12578DHQ</h3>
             <h3 className="lg:w-4/12 w-4/12 text-center truncate">
               Vel pellentesque ornare
             </h3>
