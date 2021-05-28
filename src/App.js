@@ -1,4 +1,5 @@
 // imports
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import loadable from "@loadable/component";
 import Spinner from "react-bootstrap/Spinner";
@@ -88,33 +89,35 @@ const Logout = loadable(() => import("./views/Logout"), {
 
 //return
 const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
   return (
     <Router>
       <Switch>
-        <Screen>
+        <Screen isOpen={isOpen}>
           <Route exact path="/">
-            <Dashboard />
+            <Dashboard isToggleSideBar={toggle} />
           </Route>
           <Route path="/balances">
-            <Balances />
+            <Balances isToggleSideBar={toggle} />
           </Route>
           <Route path="/customers">
-            <Customers />
+            <Customers isToggleSideBar={toggle} />
           </Route>
           <Route path="/analytics">
-            <Analytics />
+            <Analytics isToggleSideBar={toggle} />
           </Route>
           <Route path="/settings">
-            <Settings />
+            <Settings isToggleSideBar={toggle} />
           </Route>
           <Route path="/team">
-            <Team />
+            <Team isToggleSideBar={toggle} />
           </Route>
           <Route path="/contact">
-            <Contact />
+            <Contact isToggleSideBar={toggle} />
           </Route>
           <Route path="/logout">
-            <Logout />
+            <Logout isToggleSideBar={toggle} />
           </Route>
         </Screen>
       </Switch>

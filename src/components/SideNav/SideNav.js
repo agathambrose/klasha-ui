@@ -2,9 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { SideNavListData1, SideNavListData2 } from "./SideNavListData";
 
-export const SideNav = () => {
+export const SideNav = ({ isSideBarOpen }) => {
   return (
-    <div className="bg-gray-100 w-60 h-screen pt-4 md:pt-8 px-8 ">
+    <div
+      className={`bg-gray-100 ${
+        !isSideBarOpen ? "hidden md:block" : ""
+      } w-60 md:h-screen h-screen pt-4 md:pt-8 px-8`}
+    >
       <div className="space-y-6 flex flex-col justify-start">
         {/* logo */}
         <img src="/assets/logo.png" alt="klasha logo" className="w-24 h-8" />
