@@ -50,7 +50,7 @@ export const Header = ({ headerTitle, isToggleSideBar }) => {
         <img
           src="/assets/image-1.png"
           alt="profile"
-          className="px-2 py-1 bg-red-100 rounded-full border border-red-600"
+          className="px-2 py-1 bg-red-50 rounded-full border border-red-600"
         />
       </div>
     </div>
