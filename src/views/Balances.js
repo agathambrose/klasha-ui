@@ -60,7 +60,7 @@ const Balances = (props) => {
           {/* search form */}
           <h3 className="lg:block hidden font-bold">Payout table</h3>
           <div className="relative">
-            <form className="space-x-3 flex mx-2 lg:mx-0">
+            <form className="md:space-x-3 space-x-1 flex">
               <input
                 type="text"
                 placeholder="Search something..."
