@@ -17,7 +17,7 @@ const monthNames = [
   "November",
   "December",
 ];
-const day = new Date().getDay();
+const date = new Date().getDate();
 const month = new Date().getMonth();
 const year = new Date().getFullYear();
 
@@ -35,7 +35,7 @@ export const Header = ({ headerTitle, isToggleSideBar }) => {
         <div>
           <h3 className="text-black text-xl font-extrabold">{headerTitle}</h3>
           <p className="text-gray-400 text-sm">
-            Today, {day} {monthNames[month]} {year}{" "}
+            Today, {date} {monthNames[month]} {year}{" "}
           </p>
         </div>
       </div>
